@@ -2,6 +2,7 @@ import React from 'react';
 import './Main.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBellConcierge, faPersonMilitaryPointing, faRankingStar } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 
 function Main() {
@@ -15,7 +16,7 @@ function Main() {
             <p>
                 Elevate your space with our exquisite metallic decors. Whether for windows, doors, gates, or stairs, our high-quality designs bring elegance and innovation to your home or business. Experience unparalleled craftsmanship and personalized solutions that transform your vision into reality.
             </p>
-            <button class="hero-button">Explore Our Products</button>
+            <button class="hero-button"><Link to="/products">Explore Our Products</Link></button>
 
       </div>
         </div>
