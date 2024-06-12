@@ -1,5 +1,8 @@
 import React from 'react';
 import './Main.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBellConcierge, faPersonMilitaryPointing, faRankingStar } from '@fortawesome/free-solid-svg-icons';
+
 
 function Main() {
   return (
@@ -16,6 +19,38 @@ function Main() {
 
       </div>
         </div>
+
+      <div className="container">
+        <div className="row">
+        <FontAwesomeIcon fontSize={'4rem'} color='var(--color-primary-6)' icon={faRankingStar} />
+        <div className="text">
+        <h2>Quality Assurance:</h2>
+        <p>
+        At Filmag Glass Limited, quality is paramount. We source premium materials and utilize advanced manufacturing techniques to ensure the durability, functionality, and visual appeal of our products. Each item undergoes rigorous quality control checks to maintain the highest standards.
+
+        </p>
+        </div>
+        </div>
+        <div className="row">
+        <FontAwesomeIcon fontSize={'4rem'} color='var(--color-primary-6)' icon={faPersonMilitaryPointing} />
+        <div className="text">
+        <h2>Customization:</h2>
+        <p>Recognizing that every space is unique, we offer customization options to tailor our products to specific dimensions, designs, and finishes. Our experienced team works closely with clients to bring their visions to life, providing personalized solutions that exceed expectations.
+        </p>
+        </div>
+        </div>
+        <div className="row">
+        <FontAwesomeIcon fontSize={'4rem'} color='var(--color-primary-6)' icon={faBellConcierge} />
+        <div className="text">
+        <h2>Customer Service:</h2>
+        <p>Our dedicated customer service team is committed to providing exceptional support at every stage of the purchasing process. From product inquiries and customization requests to order fulfillment and after-sales service, we strive to deliver a seamless and satisfying experience for our valued customers.
+        </p>
+        </div>
+        </div>
+      </div>
+        
+        
+        
     </main>
    </>
   )
