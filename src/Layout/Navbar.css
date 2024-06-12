@@ -31,6 +31,10 @@ nav ul li a{
 
 @media screen and (max-width: 640px) {
 
+    header{
+        padding: 0 .5rem;
+    }
+
 
     nav{
         position: absolute;
