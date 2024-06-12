@@ -1,6 +1,8 @@
 import React from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Navbar() {
   return (
@@ -14,6 +16,9 @@ function Navbar() {
           <ul><li><Link to="/products">View Products</Link></li></ul>
           <ul><li><Link to="/">Contact</Link></li></ul>
         </nav>
+        <div className="menu">
+        <FontAwesomeIcon fontSize={32} color='var(--color-primary-6)' icon={faBars} />
+        </div>
     </header>
   )
 }

@@ -30,6 +30,9 @@ nav ul li a{
     color: var(--color-primary-1);
 }
 
+.menu{
+    display: none;
+}
 
 @media screen and (max-width: 640px) {
 
@@ -57,6 +60,8 @@ nav ul li a{
         top: 0;
     }
 
- 
+    .menu{
+        display: block;
+    }
     
 }
