@@ -46,6 +46,7 @@
   .container{
     display: flex;
     gap: 1rem;
+    padding-bottom: 4rem;
   }
 
   .row{
@@ -56,6 +57,9 @@
     justify-content: center;
     text-align: center;
     padding: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
   }
 
   .text h2{
@@ -66,6 +70,10 @@
   .text p{
     font-size: 1rem;
   }
+
+.row:hover {
+    transform: rotateX(0deg) rotateY(0deg);
+}
 
   .mission{
     background: linear-gradient(rgba(77, 12, 190, 0.801), rgba(189, 164, 231, 0.76)), url('https://images.pexels.com/photos/7666429/pexels-photo-7666429.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
