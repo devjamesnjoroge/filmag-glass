@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -8,10 +9,10 @@ function Navbar() {
           <img src={`${process.env.PUBLIC_URL}/logo.png`} height={80} width={80} alt="logo" />
         </div>
         <nav>
-          <ul><li><a href="/#">Home</a></li></ul>
-          <ul><li><a href="/#">About Us</a></li></ul>
-          <ul><li><a href="/#">Products</a></li></ul>
-          <ul><li><a href="/#">Contact</a></li></ul>
+          <ul><li><Link to="/">Home</Link></li></ul>
+          <ul><li><Link to="/">About Us</Link></li></ul>
+          <ul><li><Link to="/products">View Products</Link></li></ul>
+          <ul><li><Link to="/">Contact</Link></li></ul>
         </nav>
     </header>
   )

@@ -1,0 +1,26 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.product {
+    margin: 20px;
+    text-align: center;
+}
+
+.product img{
+    width: 45vw; /* Ensures the image does not exceed its container's width */
+    height: auto; /* Maintains the aspect ratio of the image */
+    border-radius: 8px; /* Adds a border-radius for rounded corners */
+    object-fit: contain;
+}
+
+@media screen and (max-width: 640px) {
+
+    .product img{
+        width: 90vw;
+    }
+    
+}

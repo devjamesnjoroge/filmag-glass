@@ -25,6 +25,7 @@
   .footer-links {
     display: flex;
     gap: 15px;
+    list-style: none;
   }
   
   .footer-links a {
