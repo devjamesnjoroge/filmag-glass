@@ -49,7 +49,13 @@ function Main() {
         </div>
       </div>
         
-        
+      <div className="mission">
+        <h2>Our Mission</h2>
+        <p>
+        Our mission is to enrich living and working environments through innovative design, superior craftsmanship, and unparalleled service. We are driven by a passion for excellence and a dedication to exceeding customer expectations, ensuring that every interaction with Filmag Glass Limited is a positive and rewarding experience.
+
+        </p>
+      </div>
         
     </main>
    </>
